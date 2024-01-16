@@ -1,0 +1,100 @@
+:root {
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --font-p: 18px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30vh auto auto auto;
+  height: 300px;
+  width: 410px;
+  font-family: 'Hanken Grotesk';
+  font-size: var(--font-p);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 10px 7px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container-1 {
+  /* padding: 10px; */
+  width: 50%;
+  height: 100%;
+  background-color: var(--cobalt-blue);
+  color: var(--pale-blue);
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.result {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: var(--light-lavender);
+}
+
+.content {
+  font-size: 14px;
+  color: var(--light-lavender);
+}
+.number-result {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0px 0px black;
+  background-color: var(--violet-blue);
+  margin-bottom: 15px;
+}
+.content-of-100 {
+  font-size: 14px;
+  height: auto;
+  width: 100%;
+}
+.great {
+  margin-bottom: 10px;
+}
+
+.container-2 {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  color: var(--dark-gray-blue);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.summary {
+  font-size: 14px;
+  text-align: right;
+  align-items: flex-start;
+}
